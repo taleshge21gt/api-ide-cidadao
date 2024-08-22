@@ -1,7 +1,7 @@
 {
   "name": "api-storage-ide-cidadao",
   "version": "1.0.0",
-  "description": "Deploy JSON Server to Vercel",
+  "description": "API IDE-Cidadao",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
