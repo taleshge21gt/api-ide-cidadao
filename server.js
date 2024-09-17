@@ -2,10 +2,8 @@ const jsonServer = require('json-server')
 
 const path = require('path')
 
-const fs = require('fs')
-fs.copyFileSync(path.join('./tmp', 'db.json'), path.join('/tmp', 'db.json'))
 const server = jsonServer.create()
-const router = jsonServer.router(path.join('/tmp', 'db.json'))
+const router = jsonServer.router(path.join('./tmp', 'db.json'))
 
 const middlewares = jsonServer.defaults()
 
