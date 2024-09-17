@@ -18,8 +18,22 @@
             "minimum": 4,
             "maximum": 15
           }
+        },
+        {
+          "id": "6483",
+          "fieldType": "SelectField",
+          "attributes": {
+            "label": "Select field",
+            "helperText": "Helper text",
+            "required": false,
+            "placeHolder": "Value here...",
+            "options": []
+          }
         }
-      ]
+      ],
+      "published": true,
+      "updatedAt": "2024-09-17T15:37:43.508Z",
+      "version": 1
     },
     {
       "form_id": "2210",
@@ -284,6 +298,46 @@
             "specialCharacter": true,
             "minimum": 4,
             "maximum": 15
+          }
+        }
+      ]
+    },
+    {
+      "form_id": "6282",
+      "name": "teste form",
+      "description": "new form",
+      "createdAt": "2024-09-17T15:32:53.637Z",
+      "updatedAt": "2024-09-17T15:33:26.180Z",
+      "version": 3,
+      "users": [],
+      "id": 12,
+      "published": true,
+      "content": [
+        {
+          "id": "7790",
+          "fieldType": "TextField",
+          "attributes": {
+            "label": "Text field",
+            "helperText": "",
+            "required": false,
+            "placeHolder": "Value here...",
+            "specialCharacter": true,
+            "minimum": 4,
+            "maximum": 15
+          }
+        },
+        {
+          "id": "3980",
+          "fieldType": "NumberField",
+          "attributes": {
+            "label": "Number field",
+            "helperText": "Helper text",
+            "required": false,
+            "placeHolder": "Value here...",
+            "minimum": 1,
+            "maximum": 30,
+            "negative": false,
+            "decimal": false
           }
         }
       ]
