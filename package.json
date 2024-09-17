@@ -4,7 +4,7 @@
   "description": "API IDE-Cidadao",
   "main": "server.js",
   "scripts": {
-    "start": "json-server db.json -p 3000 -w"
+    "start": "node server.js"
   },
   "dependencies": {
     "json-server": "^0.17.4"
